@@ -1,4 +1,4 @@
-morse_tower: ifd you want your tower blink... Add some relay controlled led and connect it to ur raspberry at GPIO16 (aka pin27)
+morse_tower: if you want your tower blink... Add some relay controlled led and connect it to ur raspberry at GPIO16 (aka pin27)
 
 forever start /home/pi/morse_tower/app.js     // u need to npm install forever, onoff, sleep
 forever stop /home/pi/morse_tower/app.js      // start/stop forever server and/or add it to startup
